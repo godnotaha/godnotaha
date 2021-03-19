@@ -235,3 +235,13 @@ section.skills>.right-side>img{
     display: flex;
     flex-direction: column;
 }
+
+.gallery{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+    grid-template-rows: 50% 50%;
+}
+
+.gallery-el{
+    width: 100%;
+}
