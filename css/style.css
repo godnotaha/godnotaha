@@ -166,7 +166,7 @@ section.skills{
 section.skills>.right-side>img{
     width: 555px;
     margin-left: 100px;
-    margin-right: 100px;
+    
 }
 
 .temp{
@@ -244,4 +244,53 @@ section.skills>.right-side>img{
 
 .gallery-el{
     width: 100%;
+}
+
+
+/* 1109 */
+
+@media (max-width: 1130px) and (min-width: 600px){
+
+    section.skills>.right-side>img{
+        width: 40vw;
+        margin: 0px;
+        margin-top: 5vw;
+    }
+
+    section.skills,.top-header,.main-header
+    
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-header>.right-side{
+        margin-left: 0;
+    }
+
+    nav>.elements-menu>.el-menu>a{
+        
+        margin-right: 3vw;
+        margin-left: 3vw;
+    }
+
+    .photo_video{
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .microsoft>img{
+        width: 24vw;
+    }
+
+    .project-el{
+        width: 15vw;
+        flex-direction: column;
+    }
+    .right-side1{
+        width: 40vw;
+    }
 }
