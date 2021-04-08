@@ -294,3 +294,121 @@ section.skills>.right-side>img{
         width: 40vw;
     }
 }
+
+@media (max-width: 599px) and (min-width: 300px){
+
+    
+
+    .left-side>img{
+        width: 100%;
+    }
+
+    .elements-menu{
+        flex-direction: column;
+        padding-top: 30px;
+        justify-content: space-between;
+        
+    }
+
+    section.skills>.right-side>img{
+        width: 40vw;
+        margin: 0px;
+        margin-top: 5vw;
+    }
+
+    section.skills,.top-header,.main-header
+    
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-header>.right-side{
+        margin-left: 0;
+    }
+
+    nav>.elements-menu>.el-menu>a{
+        margin-top: 10px;
+        margin-right: 3vw;
+        margin-left: 3vw;
+    }
+
+    .el-menu{
+        margin-top: 10px;
+    }
+
+    .photo_video{
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 0;
+        height: 100%;
+        padding-bottom: 50px;
+    }
+
+    .microsoft{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        margin-left: 48vw;
+        margin-right: 48vw;
+        margin-top: 10px;
+        margin-bottom: 100px;
+     background-color: red;
+
+    }
+
+    .microsoft>img{
+        width: 22vw;
+
+    }
+
+    .project-el{
+        justify-content: normal;
+        background-color: seagreen;
+        margin: -22vw;
+        padding: 0vw;
+        flex-direction: column;
+ 
+    }
+
+    .project-el>.left-side>img{
+        width: 8vw;
+    }
+
+    .project-el>.right-side{
+        display: flex;
+        background-color: black;
+        
+        
+
+    }
+
+    .pr{
+        width: 1px;
+    }
+
+    .bold{
+        background-color:rebeccapurple;
+        margin-left: 30%;
+        margin-right: 50%;
+    }
+
+
+
+    .right-side1{
+        width: 50vw;
+    }
+
+    section.skills>.left-side{
+        width: 80vw;
+        margin: 0px;
+        margin-top: 0vw;
+    }
+
+    .base-line-skill>img{
+        width: 80vw;
+    }
+}
+
