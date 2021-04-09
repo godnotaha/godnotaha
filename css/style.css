@@ -139,10 +139,11 @@ section.project{
     background: #34547A;
     height: 250px;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 16% 16% 16% 16% 16% 16% ;
+    align-items:center;
+    justify-items: center;
 }
 
 .project-el{
@@ -355,8 +356,6 @@ section.skills>.right-side>img{
         margin-right: 48vw;
         margin-top: 10px;
         margin-bottom: 100px;
-     background-color: red;
-
     }
 
     .microsoft>img{
@@ -365,10 +364,8 @@ section.skills>.right-side>img{
     }
 
     .project-el{
+        width: 30vw;
         justify-content: normal;
-        background-color: seagreen;
-        margin: -22vw;
-        padding: 0vw;
         flex-direction: column;
  
     }
@@ -379,18 +376,11 @@ section.skills>.right-side>img{
 
     .project-el>.right-side{
         display: flex;
-        background-color: black;
-        
-        
-
     }
 
-    .pr{
-        width: 1px;
-    }
+
 
     .bold{
-        background-color:rebeccapurple;
         margin-left: 30%;
         margin-right: 50%;
     }
@@ -409,6 +399,13 @@ section.skills>.right-side>img{
 
     .base-line-skill>img{
         width: 80vw;
+    }
+
+    section.project{
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 33% 33% 33% ;
+        
+
     }
 }
 
